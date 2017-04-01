@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IRASingleton&lt;TYPE&gt;" Collapsed="true">
+    <Position X="55.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAIQAQAAAAAAAA=</HashCode>
+      <FileName>include\IRASingleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDXUTResourceCache" Collapsed="true">
+    <Position X="149.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAQIAAAAAAAAEBAEAAAAAAAQAACBAAAAA=</HashCode>
+      <FileName>3rd-path\DXUT\SDKmisc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDXUTTextHelper" Collapsed="true">
+    <Position X="154.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAABAAAAIAhAQACAAAAAQAAAAEEAABAIACoAAAAEA=</HashCode>
+      <FileName>3rd-path\DXUT\SDKmisc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDXUTLineManager" Collapsed="true">
+    <Position X="147.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgAAAAAAAAAkABACAQAAAAAYEQAAAAAAAAgIAAAAQA=</HashCode>
+      <FileName>3rd-path\DXUT\SDKmisc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDXUTStack&lt;T&gt;" Collapsed="true">
+    <Position X="153" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAIAQAABAAAAAAgACAAAKAAAAAACABAAAACAA=</HashCode>
+      <FileName>3rd-path\DXUT\SDKmisc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raClass" Collapsed="true">
+    <Position X="67" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>include\raClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raArray&lt;TYPE&gt;" Collapsed="true">
+    <Position X="1.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEIAAEAAEAAABBCgAEQIFAAAAAMAAAAAIAAoAIAwAAA=</HashCode>
+      <FileName>include\raArray.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raColor" Collapsed="true">
+    <Position X="151.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAEAUAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>include\raColor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raFile" Collapsed="true">
+    <Position X="56.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAIAAAAAAAQAIAAAAAAAAQAABAAAAAABAAKAAAQAA=</HashCode>
+      <FileName>include\raFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raLight" Collapsed="true">
+    <Position X="154.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAABAAAgAEAIBAAAAAACAAAAhCAAAAAAAAAAA=</HashCode>
+      <FileName>include\raLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raList&lt;T&gt;" Collapsed="true">
+    <Position X="156.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwIAAAAAAAAAACKAAEAEAQABAAgBCAAAAAABgAAA=</HashCode>
+      <FileName>include\raList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raMatrix" Collapsed="true">
+    <Position X="147.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>include\raMatrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raMemManager" Collapsed="true">
+    <Position X="149.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAAIgAABEBAAAAgAQICAgAAAIQAQCgAAAgAA=</HashCode>
+      <FileName>include\raMemory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raPlane" Collapsed="true">
+    <Position X="153" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAgAAAAgAA=</HashCode>
+      <FileName>include\raPlane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raQuaternion" Collapsed="true">
+    <Position X="154.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAgAAAAAAAAUAABAAAABAAAAAgAAAAAAQ=</HashCode>
+      <FileName>include\raQuaternion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raRECT" Collapsed="true">
+    <Position X="147.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAIAAABADAAAAAgAAAAAAA=</HashCode>
+      <FileName>include\raRECT.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raTimer" Collapsed="true">
+    <Position X="154.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARQBAAAAgGBQBAABAAAAAhQBAAAAFAAAIBAAAIBAAAA=</HashCode>
+      <FileName>include\raTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raVector2" Collapsed="true">
+    <Position X="156.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAUAAAABAABAAAAAgAAAAAAA=</HashCode>
+      <FileName>include\raVector2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raVector3" Collapsed="true">
+    <Position X="147.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAEAAUBAAABAABAAAAAgAAAAAAA=</HashCode>
+      <FileName>include\raVector3.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raVector4" Collapsed="true">
+    <Position X="149.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAUAAAABAABAAAACgAAAAAAA=</HashCode>
+      <FileName>include\raVector4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raVirtualFile" Collapsed="true">
+    <Position X="151.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgCAAABACgCAAAAAAgAEAAAAAAIAASQQIAAAA=</HashCode>
+      <FileName>include\raVirtualFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raDirectX" Collapsed="true">
+    <Position X="34.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gASgAGIBAAuCIBAAiIAEAADAQAJEAEqCIAICgkFADAI=</HashCode>
+      <FileName>include\raDirectX.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raGrafikDriver" Collapsed="true">
+    <Position X="34.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiAAAAIAAAAABAQAAIAAASAAABAAgAAICAiAAFAAAA=</HashCode>
+      <FileName>include\raGrafikDriver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::IRAMesh" Collapsed="true">
+    <Position X="102" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>qAAEAEBAECAQAgABAAAAAAQAgAAAAQAAAAAABAEMQAA=</HashCode>
+      <FileName>include\IRAMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raAnimated" Collapsed="true">
+    <Position X="145.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAIgAAI=</HashCode>
+      <FileName>include\raAnimated.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raAnimatedNode" Collapsed="true">
+    <Position X="142.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>include\raAnimated.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raAnimation" Collapsed="true">
+    <Position X="147.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAEAAAIAAAAAAAAAAQAAABCgEAAIJAAAAAAAKE=</HashCode>
+      <FileName>include\raAnimation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raTriangle" Collapsed="true">
+    <Position X="86.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>include\raBasics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raQuad" Collapsed="true">
+    <Position X="89" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAgAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>include\raBasics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raCube" Collapsed="true">
+    <Position X="91.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAQAAAAgAAAA=</HashCode>
+      <FileName>include\raBasics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raSphere" Collapsed="true">
+    <Position X="95.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAgAAAQAAAAACAAAAAQAgAAAA=</HashCode>
+      <FileName>include\raBasics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raRotationskoerper" Collapsed="true">
+    <Position X="98" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAgAAAAAAAAAAAAIABAAgAgAA=</HashCode>
+      <FileName>include\raBasics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raLineList" Collapsed="true">
+    <Position X="104.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAIAAAAAAAAAAAEAgEAAA=</HashCode>
+      <FileName>include\raBasics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raTexturedQuad" Collapsed="true">
+    <Position X="67.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAgAAAA=</HashCode>
+      <FileName>include\raBasics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raAchsenkreuz" Collapsed="true">
+    <Position X="73.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raBasics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raBillboard" Collapsed="true">
+    <Position X="64.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raBillboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raHimmelkoerper" Collapsed="true">
+    <Position X="68.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raBillboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raCrosshair" Collapsed="true">
+    <Position X="71" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>include\raBillboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raCMaterial" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAACAEAAAAAACAAAAAAAAgAAEAAEAAAAAACAAE=</HashCode>
+      <FileName>include\raCMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raEntity&lt;VertexType, bIndexed, IndexType&gt;" Collapsed="true">
+    <Position X="86.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAwEAYBAECAQAQAFAAAAgAAAAAABAQAAgQAAAAlMAIE=</HashCode>
+      <FileName>include\raEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raOctree" Collapsed="true">
+    <Position X="151.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAABACAAAAACAACAAAAABAAgAQAAAAAAAAIA=</HashCode>
+      <FileName>include\raOctree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raEntitySDKMaterial" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAAAAACAAAA=</HashCode>
+      <FileName>include\raEntitySDKMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raEntitySDKMesh" Collapsed="true">
+    <Position X="108.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAEBAECAQAACBAAAAAEAAgAAAAQAAAABAAAEMAIA=</HashCode>
+      <FileName>include\raEntitySDKMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raFractal" Collapsed="true">
+    <Position X="93.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAgAAAIAAAAAgAAAAEAAAAAAAAAAEAgAAAA=</HashCode>
+      <FileName>include\raFractal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raGroup" Collapsed="true">
+    <Position X="110.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAEAABBkiAAAAABgAAAAgGIAABACUAAAAAESEEMAIg=</HashCode>
+      <FileName>include\raGroupe.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raGSEntity" Collapsed="true">
+    <Position X="100.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAEAABAAAgIAgAABAAEAAAgACAAgEAGA=</HashCode>
+      <FileName>include\raGSEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raHoehenfeld" Collapsed="true">
+    <Position X="108.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAEAgAgAAgAAAgCAQAAEAAgAAAA=</HashCode>
+      <FileName>include\raHoehenfeld.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raHeightMap" Collapsed="true">
+    <Position X="107" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQEAAQgBAAAAAAAAQAAAAAEAAAA=</HashCode>
+      <FileName>include\raHoehenfeld.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raMaterial" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAADkCECAgAAAgAgAAAAACACABJSEAACoEMCACAQAA=</HashCode>
+      <FileName>include\raMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raMinimap" Collapsed="true">
+    <Position X="66.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAABAAAAAAAAAABAAFAAAAAAAAEAIAA=</HashCode>
+      <FileName>include\raMinimap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raModel" Collapsed="true">
+    <Position X="75.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAABAgAAAAAAAAgAAAAAAAAEAAAg=</HashCode>
+      <FileName>include\raModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raNode" Collapsed="true">
+    <Position X="142.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQEgAgBkAEIAAAAAAwgBQBAAABBgUgAQJAAAAAAAIA=</HashCode>
+      <FileName>include\raNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raParticleSystem" Collapsed="true">
+    <Position X="82.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwIQACAAAAIAQAACAAAggAAACAAAgAABAAAAAAEAAA=</HashCode>
+      <FileName>include\raParticleSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raProceduralMaterial" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAACAABEAIAAAIBgSAFAABAAEAAAAggCAAAACA=</HashCode>
+      <FileName>include\raProceduralMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raRain" Collapsed="true">
+    <Position X="156.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAIAAAIiAAAAIAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>include\raRain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raRender" Collapsed="true">
+    <Position X="86" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAABEAAICAAAEAAAAAAAAABAQEAAAJAAQAGABIA=</HashCode>
+      <FileName>include\raRender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raRenderScreen" Collapsed="true">
+    <Position X="149.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAACACKIgBAAABAEAAAAoAAgBAQECEIAAAAAACAAE=</HashCode>
+      <FileName>include\raRenderScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raSceneManager" Collapsed="true">
+    <Position X="95" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYiEAAA4AABEMIFgAgDBAAAgATAREAMCVBAIAQBAEA=</HashCode>
+      <FileName>include\raSceneManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raTexture" Collapsed="true">
+    <Position X="153" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAABAAAAAAAAAAAAEAEAAwAICAAAAAALAAAAAA=</HashCode>
+      <FileName>include\raResource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raResource" Collapsed="true">
+    <Position X="151.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADAAAMAABAAAAAABAEAAACAAQAACCBAIAAg=</HashCode>
+      <FileName>include\raResource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raRFMaterial" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAUAAIQACAAgAAAAAAgAAAAAQAAAIEAAMIAAAAAAAAA=</HashCode>
+      <FileName>include\raRFMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raRTTMaterial" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAAACBAAAAAAAAABAAAAAABAAEAAAAAAAAEAAAA=</HashCode>
+      <FileName>include\raRTTMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raTexturedMaterial" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAACSBAAAAgAAgAAAAAAACBAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raTexturedMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::CDXUTSDKMesh" Collapsed="true">
+    <Position X="151.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACsFMBB3CYFQ8gZAOASAEIUqiRBzUgfCbYAAEgGgjI=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raSkyBox" Collapsed="true">
+    <Position X="77.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAABAAAAgAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>include\raSkyBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raSkyDome" Collapsed="true">
+    <Position X="80" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAgAAAQAAIAACAAAAAAAgAAAA=</HashCode>
+      <FileName>include\raSkyDome.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raTree" Collapsed="true">
+    <Position X="84.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgECQAAAAAABYAAAgAAAgABAAkAAQhQBAAgAgAA=</HashCode>
+      <FileName>include\raTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raVisual" Collapsed="true">
+    <Position X="86" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>qMoIFkQANEA4EgAB8gKEAGwAgCBAwEAEQJAYBEQKIhA=</HashCode>
+      <FileName>include\raVisual.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raWater" Collapsed="true">
+    <Position X="56" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwEAcBAUCEQgAABgEAAogCAgAARAyCBIYAYAAlEIIA=</HashCode>
+      <FileName>include\raWater.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raComputeShaderObject" Collapsed="true">
+    <Position X="60.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAABAQEAoIAAAAAAAAAE=</HashCode>
+      <FileName>include\raComputeShaderObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raCSIOBuffer" Collapsed="true">
+    <Position X="59" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAABAACAAAAAAAAAAAAEAgACAAAAAAAAA=</HashCode>
+      <FileName>include\raCSIOBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raCSRessource" Collapsed="true">
+    <Position X="60.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAIAAAAAEAAAAAAAAAABAAA=</HashCode>
+      <FileName>include\raCSRessource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raCSRessourceTexture1D" Collapsed="true">
+    <Position X="61.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAABAAEAgACAAAAgAAAA=</HashCode>
+      <FileName>include\raCSRessource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raGPUHeightmap" Collapsed="true">
+    <Position X="109.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAgAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>include\raGPUHeightmap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raGPUHeightmapMaterial" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAACAAAAAACAAAAAAAAEABAAEEAAAQAAAAAAAA=</HashCode>
+      <FileName>include\raGPUHeightmap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raGPUParticleSystem" Collapsed="true">
+    <Position X="113" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oBYMAABAECAQAAABAIAAAAAAACAAAQAAAAAAAAEMAIE=</HashCode>
+      <FileName>include\raGPUParticleSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raTesselatinObject" Collapsed="true">
+    <Position X="102.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAABBAAAAgEAAAAAAAAAAAAAAAAAEAAE=</HashCode>
+      <FileName>include\raTesselatinObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raCamera" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QWMkoEECEFaqBoHFKgBESgTiACLRGEBhQImgTkUBIBg=</HashCode>
+      <FileName>include\raCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raClientSocket" Collapsed="true">
+    <Position X="63.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>include\raClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raClient" Collapsed="true">
+    <Position X="36.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAYAAIABACBwEAAAAEAKAIABBgDEQ0AQAAIAAADABEA=</HashCode>
+      <FileName>include\raClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raServerSocket" Collapsed="true">
+    <Position X="65.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAQIAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>include\raServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raServer" Collapsed="true">
+    <Position X="52.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACgEAICAAAggAAACAAAAAIAAEAAAAAIAABAAAAABQ=</HashCode>
+      <FileName>include\raServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raSocket" Collapsed="true">
+    <Position X="64.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIQgEAAAAAAABAIIAFAAAAAAAAAAAARYAAACCAAAAAA=</HashCode>
+      <FileName>include\raSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raPhysik" Collapsed="true">
+    <Position X="74.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACEAEAKAAAIAQEAgAAAAESAAAQUQAAQAYAAEAIAA=</HashCode>
+      <FileName>include\raPhysik.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raFSound" Collapsed="true">
+    <Position X="47.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAACAAABAAAAAAAAAA=</HashCode>
+      <FileName>include\raFSound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raFStream" Collapsed="true">
+    <Position X="47.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgQAAAAEACBACIAAEEAABIAAAARQAkCABAAAAAAARAA=</HashCode>
+      <FileName>include\raFStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raFSystem" Collapsed="true">
+    <Position X="38.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAAAAQAAACAAAAQAAABAAUAAAEUAAACAAEA=</HashCode>
+      <FileName>include\raFSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raFNormalize" Collapsed="true">
+    <Position X="90.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAiACAAAAAAAAAAAAAAAABACEAAIAAAAAAAAAA=</HashCode>
+      <FileName>include\raFNormalize.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::IRAEffect" Collapsed="true">
+    <Position X="90.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAQAAAAAAABAAAARAAEAAIAAAAAAAAAA=</HashCode>
+      <FileName>include\IRAEffect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::IRASoundSystem" Collapsed="true">
+    <Position X="38.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAABAAkAAAAIAAAAAAEA=</HashCode>
+      <FileName>include\IRASoundSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::IRATag" Collapsed="true">
+    <Position X="156.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>include\IRAStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::IRAStream" Collapsed="true">
+    <Position X="46.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQggBAEACJACYAAAEAABAAAAABQAEAgpAAEAAAAAAA=</HashCode>
+      <FileName>include\IRAStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::IRASound" Collapsed="true">
+    <Position X="45.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAIAAAEAAAAAAABAQAAAABAAAAAAAAAA=</HashCode>
+      <FileName>include\IRASound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::IRAImage" Collapsed="true">
+    <Position X="69.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIACCAAAAAAgAgAAAACQAAgAAEAAIAAAAAAAAAA=</HashCode>
+      <FileName>include\IRAImage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raIBMP" Collapsed="true">
+    <Position X="68" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAgUAAAAAAAAEAAIQAAAAAAAAA=</HashCode>
+      <FileName>include\raIBMP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raISGI" Collapsed="true">
+    <Position X="70.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAQAAAAAgAgAAAAAAAAAAAEAAIAAAAACgAAA=</HashCode>
+      <FileName>include\raISGI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raGame" Collapsed="true">
+    <Position X="79.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raGameCharakter" Collapsed="true">
+    <Position X="83.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAACAAgCAAAQAAAAAAEAAAAiQAFJACADAgQgA=</HashCode>
+      <FileName>include\raGameCharakter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raLocation" Collapsed="true">
+    <Position X="88.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAgAAAAAIAAAAAAAQAAAAAAIAAABAQ=</HashCode>
+      <FileName>include\raLocation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::IRARawDevice" Collapsed="true">
+    <Position X="92.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAgAAAAAgAAAAAgAAAAEQAAAAAAAgAAAA=</HashCode>
+      <FileName>include\IRARawDevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raInput" Collapsed="true">
+    <Position X="97.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAgAAAAEIAAEAACACAAAA=</HashCode>
+      <FileName>include\raInput.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raRawInputCamera" Collapsed="true">
+    <Position X="99.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QWMkoEECEFSqBoFFKgBESgTiACDRCEBhQAmgDkUBIBg=</HashCode>
+      <FileName>include\raRawInputCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raRawKeyboard" Collapsed="true">
+    <Position X="92.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAhAAAAIgAAAAAgAAAAEQAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raRawKeyboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::IConfigFile" Collapsed="true">
+    <Position X="41" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACGgAgBAAIAJBBMAEECBAABAAAAAAgAABAAAADAAAE=</HashCode>
+      <FileName>include\IConfigFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raConfig" Collapsed="true">
+    <Position X="43.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEIAAAAAAAAAAIQCACAgAAAAAAAgAEAAAAEAAAAMAQ=</HashCode>
+      <FileName>include\raConfigLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raConfigLoader" Collapsed="true">
+    <Position X="50" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAIAAAACgAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>include\raConfigLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raIni" Collapsed="true">
+    <Position X="41" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIGWgAhAAgIAJBBMREEiBAAAAAAAQAgAABhAAADCAAE=</HashCode>
+      <FileName>include\raIni.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::IRASection" Collapsed="true">
+    <Position X="72.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAAAAAAAAAAAAFEAEAAAAAAAABAAAE=</HashCode>
+      <FileName>include\IRASection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raCriticalSection" Collapsed="true">
+    <Position X="72.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAgFEAEAgAAAAAAAAAAA=</HashCode>
+      <FileName>include\raCriticalSection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raCriticalBlock" Collapsed="true">
+    <Position X="77" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAEAAAAAAAAAAAAAAgAAAAgAAAAAAA=</HashCode>
+      <FileName>include\raCriticalSection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raThread" Collapsed="true">
+    <Position X="81.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQAAAIAACAAAQAAAIQAAAAgoQABAAAAAAI=</HashCode>
+      <FileName>include\raThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raThreadManager" Collapsed="true">
+    <Position X="54.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raThreadManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raCameraFP" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAgAAABAAAQAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>include\raCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raColObject" Collapsed="true">
+    <Position X="149.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raColCamera" Collapsed="true">
+    <Position X="5.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAACAgAAAAAAAAAABAAACAAAAACAAAAAIAA=</HashCode>
+      <FileName>include\raCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::raOrthoCamera" Collapsed="true">
+    <Position X="3.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAABAAAAAAAAAAAAAAAAAAIAAAABAAAAAAIAA=</HashCode>
+      <FileName>include\raOrthoCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raSystem::Util::raFile" Collapsed="true">
+    <Position X="153" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAIAEAAAAAAMAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raUtility.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="DXUTCache_Texture" Collapsed="true">
+    <Position X="153" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAJAACCAAABAIAAEAAAAQAACAgAAAABAAAAAA=</HashCode>
+      <FileName>3rd-path\DXUT\SDKmisc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXUTCache_Font" Collapsed="true">
+    <Position X="151.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3rd-path\DXUT\SDKmisc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DXUTCache_Effect" Collapsed="true">
+    <Position X="149.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAACAAAAAIAAAEAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>3rd-path\DXUT\SDKmisc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_ImageRec" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAAAACCQAAAQJAAgAAAAAQAFAAEBBAgAAAAAAQg=</HashCode>
+      <FileName>src\raISGI.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::RAANIMATION_FRAME_DATA" Collapsed="true">
+    <Position X="149.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAACAAAAAAAAABAAAAAAIAAAAAAA=</HashCode>
+      <FileName>include\raAnimation.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::raListEntry&lt;T&gt;" Collapsed="true">
+    <Position X="153" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raList.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::raMemListEntry" Collapsed="true">
+    <Position X="154.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAIAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raMemory.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::TIMEDFLOATKEYS" Collapsed="true">
+    <Position X="149.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>include\raAnimation.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::RAANIMATIONKEYHEADER" Collapsed="true">
+    <Position X="151.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raAnimation.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::INDEX" Collapsed="true">
+    <Position X="154.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raBasics.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::RAMESH_HEADER" Collapsed="true">
+    <Position X="156.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAgAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>include\raModel.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::raParticle" Collapsed="true">
+    <Position X="147.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAgAAAIAAAAAAAAgQAAABAAAAAAAA=</HashCode>
+      <FileName>include\raParticleSystem.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::SDKMESH_HEADER" Collapsed="true">
+    <Position X="149.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KIAQAACgAAQAgAAJBAQAAgAQAAAAAQAAAEAAAAAAAEA=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::SDKMESH_VERTEX_BUFFER_HEADER" Collapsed="true">
+    <Position X="147.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAIAAAAAIAAAAAAAA=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::SDKMESH_INDEX_BUFFER_HEADER" Collapsed="true">
+    <Position X="151.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::SDKMESH_MESH" Collapsed="true">
+    <Position X="154.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAACAAAEAQAAAAAAwAAACAAAAAAAEA=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::SDKMESH_SUBSET" Collapsed="true">
+    <Position X="156.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAABAAAAAAAAAUAASAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::SDKMESH_FRAME" Collapsed="true">
+    <Position X="147.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAABAAACQAAAAgAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::SDKMESH_MATERIAL" Collapsed="true">
+    <Position X="153" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAgQAgQEAAAAgAAAAQAAAAAAAABAAAAAEAAAAA=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::SDKANIMATION_FILE_HEADER" Collapsed="true">
+    <Position X="153" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAEgI=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::SDKANIMATION_DATA" Collapsed="true">
+    <Position X="151.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::SDKANIMATION_FRAME_DATA" Collapsed="true">
+    <Position X="154.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::SDKMESH_CALLBACKS11" Collapsed="true">
+    <Position X="156.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABQAAAAAAAAAAAABAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::VERTEXPOSITIONNORMALTEXTURED" Collapsed="true">
+    <Position X="156.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAAAAAAAAAAAAAAAIAgAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raVectexType.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::VERTEXPOSITIONNORMALTEXTUREDSKINNED" Collapsed="true">
+    <Position X="147.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAAAAAAAAAAAAAAAIAoAAAAAQgAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raVectexType.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::VERTEXPOSITIONCOLOR" Collapsed="true">
+    <Position X="154.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAAAAAAAAAAAAAAAIAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raVectexType.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::VERTEXPOSITION" Collapsed="true">
+    <Position X="153" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raVectexType.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::VERTEXPOSITIONTEXTURED" Collapsed="true">
+    <Position X="149.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raVectexType.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::CUBEMAPVERTEX" Collapsed="true">
+    <Position X="147.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raVectexType.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::POINTSPRITEVERTEX" Collapsed="true">
+    <Position X="147.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAAACAAAAAAAAAAAIAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raVectexType.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::PARTICLEVERTEX" Collapsed="true">
+    <Position X="156.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAAACAAAAAAAAAAAIAAAAAAAAACAAAQAAAAAAAA=</HashCode>
+      <FileName>include\raVectexType.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::VERTEXFONT" Collapsed="true">
+    <Position X="151.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAgAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACAQA=</HashCode>
+      <FileName>include\raVectexType.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="raSystem::raZipHeader" Collapsed="true">
+    <Position X="149.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAEAAIQAAAAAAAIQAAAGAAAAAIAEIAA=</HashCode>
+      <FileName>src\raFile.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="raFloat" Collapsed="true">
+    <Position X="154.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raMain.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="raString" Collapsed="true">
+    <Position X="151.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raMain.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="raInt" Collapsed="true">
+    <Position X="149.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raMain.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="raHandle" Collapsed="true">
+    <Position X="147.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raMain.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="raFrameMap" Collapsed="true">
+    <Position X="156.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raMain.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="raSystem::raEffectMap" Collapsed="true">
+    <Position X="153" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raMaterial.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="raSystem::LPCREATETEXTUREFROMFILE11" Collapsed="true">
+    <Position X="149.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="raSystem::LPCREATEVERTEXBUFFER11" Collapsed="true">
+    <Position X="151.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="raSystem::LPCREATEINDEXBUFFER11" Collapsed="true">
+    <Position X="147.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="raSystem::raObjectArray" Collapsed="true">
+    <Position X="1.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raCamera.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ImageRec" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\raISGI.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="DXUTCACHE_SOURCELOCATION" Collapsed="true">
+    <Position X="149.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>3rd-path\DXUT\SDKmisc.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="raSystem::raSeek" Collapsed="true">
+    <Position X="156.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAIAAAAAAAAABACAAAAAA=</HashCode>
+      <FileName>include\raVirtualFile.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="raSystem::SDKMESH_PRIMITIVE_TYPE" Collapsed="true">
+    <Position X="153" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAAAAAAAAAAASCAAAAAJAAAAAAgAAAAAAAAAQAEgA=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="raSystem::SDKMESH_INDEX_TYPE" Collapsed="true">
+    <Position X="151.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="raSystem::FRAME_TRANSFORM_TYPE" Collapsed="true">
+    <Position X="151.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\raSDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="raSystem::raPacketID" Collapsed="true">
+    <Position X="154.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAgAAAAIABAAAEAACABAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>include\raPostID.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="raSystem::RACHANNELMODE" Collapsed="true">
+    <Position X="153" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAARAAAAAAgAAAAAAAAAAAQAAAgAAoAAA=</HashCode>
+      <FileName>include\IRASoundSystem.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="raSystem::RASOUNDFORMAT" Collapsed="true">
+    <Position X="149.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggAECAABAgAgAAAAABCAAAAAIAgAAAAAAAAAEABgBA=</HashCode>
+      <FileName>include\IRASoundSystem.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="raSystem::RASOUNDAUSGABE" Collapsed="true">
+    <Position X="147.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAEAAAAAAgACAAAAAAAAAA=</HashCode>
+      <FileName>include\IRASoundSystem.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="raSystem::D3DUtil_CameraKeys" Collapsed="true">
+    <Position X="147.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAIAAAAAAAAAAABQABCAAAQAAAAGAAQAAAAAAAA=</HashCode>
+      <FileName>include\raCamera.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

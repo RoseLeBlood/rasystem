@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E1C72022-E067-429D-A839-D9AE1BA2189A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>raGUI</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\$(ProjectName)\</OutDir>
+    <IntDir>..\build\release\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\$(ProjectName)\</OutDir>
+    <IntDir>..\build\release\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\bin\$(ProjectName)\</OutDir>
+    <IntDir>..\build\release\$(ProjectName)\</IntDir>
+    <IncludePath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Win64\api\inc;C:\Program Files (x86)\OpenCTM 1.0.3\Developer files;C:\Program Files %28x86%29\Lua\5.1\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\bin\$(ProjectName)\</OutDir>
+    <IntDir>..\build\release\$(ProjectName)\</IntDir>
+    <IncludePath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Win64\api\inc;C:\Program Files (x86)\OpenCTM 1.0.3\Developer files;C:\Program Files %28x86%29\Lua\5.1\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;RAGUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;RAGUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;RAGUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <OpenMPSupport>true</OpenMPSupport>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>gdiplus.lib;glu32.lib;Dwrite.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalManifestDependencies>
+      </AdditionalManifestDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;RAGUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <OpenMPSupport>true</OpenMPSupport>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>gdiplus.lib;glu32.lib;Dwrite.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalManifestDependencies>
+      </AdditionalManifestDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="raBitmapButton.h" />
+    <ClInclude Include="raButton.h" />
+    <ClInclude Include="raCheckBox.h" />
+    <ClInclude Include="raColorDialog.h" />
+    <ClInclude Include="raDrawing.h" />
+    <ClInclude Include="raEdit.h" />
+    <ClInclude Include="raElapsedSlider.h" />
+    <ClInclude Include="raElement.h" />
+    <ClInclude Include="raFileDialog.h" />
+    <ClInclude Include="raFixedWindow.h" />
+    <ClInclude Include="raGameWindow.h" />
+    <ClInclude Include="raGuiMain.h" />
+    <ClInclude Include="raGuiManager.h" />
+    <ClInclude Include="rahInstance.h" />
+    <ClInclude Include="raLabel.h" />
+    <ClInclude Include="raListBox.h" />
+    <ClInclude Include="raMenu.h" />
+    <ClInclude Include="raOpenGl.h" />
+    <ClInclude Include="raOverlappedWindow.h" />
+    <ClInclude Include="raPopupWindow.h" />
+    <ClInclude Include="raPrintDialog.h" />
+    <ClInclude Include="raRadiobox.h" />
+    <ClInclude Include="raRegistry.h" />
+    <ClInclude Include="raRtfBox.h" />
+    <ClInclude Include="raSlider.h" />
+    <ClInclude Include="raText.h" />
+    <ClInclude Include="raTrayIcon.h" />
+    <ClInclude Include="raWindow.h" />
+    <ClInclude Include="raWindowClass.h" />
+    <ClInclude Include="raWND.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="raBitmapButton.cpp" />
+    <ClCompile Include="raButton.cpp" />
+    <ClCompile Include="raCheckBox.cpp" />
+    <ClCompile Include="raColorDialog.cpp" />
+    <ClCompile Include="raDrawing.cpp" />
+    <ClCompile Include="raEdit.cpp" />
+    <ClCompile Include="raElapsedSlider.cpp" />
+    <ClCompile Include="raElement.cpp" />
+    <ClCompile Include="raFileDialog.cpp" />
+    <ClCompile Include="raFixedWindow.cpp" />
+    <ClCompile Include="raGameWindow.cpp" />
+    <ClCompile Include="raGuiMain.cpp" />
+    <ClCompile Include="raGuiManager.cpp" />
+    <ClCompile Include="rahInstance.cpp" />
+    <ClCompile Include="raLabel.cpp" />
+    <ClCompile Include="raListBox.cpp" />
+    <ClCompile Include="raMenu.cpp" />
+    <ClCompile Include="raOpenGl.cpp" />
+    <ClCompile Include="raOverlappedWindow.cpp" />
+    <ClCompile Include="raPopupWindow.cpp" />
+    <ClCompile Include="raPrintDialog.cpp" />
+    <ClCompile Include="raRadiobox.cpp" />
+    <ClCompile Include="raRegistry.cpp" />
+    <ClCompile Include="raRtfBox.cpp" />
+    <ClCompile Include="raSlider.cpp" />
+    <ClCompile Include="raText.cpp" />
+    <ClCompile Include="raTrayIcon.cpp" />
+    <ClCompile Include="raWindow.cpp" />
+    <ClCompile Include="raWindowClass.cpp" />
+    <ClCompile Include="raWND.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\raPlayer\Main.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\bin\raSystem\raSystem.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

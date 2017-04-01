@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Window">
+      <UniqueIdentifier>{3d2ea471-e8a1-45ae-bfc9-12048378db9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Window">
+      <UniqueIdentifier>{0ca5cdc4-46f4-4c52-b465-5abfb225f127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Playliste">
+      <UniqueIdentifier>{7f6d1834-cbc3-4f65-8162-da65c3a1e95f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Playliste">
+      <UniqueIdentifier>{eac28947-a414-4a91-837a-bca7f6f1eeb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Programm und Stream">
+      <UniqueIdentifier>{09546ff2-72ee-4173-b7d3-316b01ceb0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Programm und Stream">
+      <UniqueIdentifier>{fc7f6102-26c6-47bb-aaf7-3bb321b4b7f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\Version">
+      <UniqueIdentifier>{df15f077-5896-49ba-9fd2-f55f8af7cda2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\lib">
+      <UniqueIdentifier>{521ada61-d67a-455a-b99d-84a6f517022a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Argumenten">
+      <UniqueIdentifier>{53949c10-936a-401b-b3b8-27223e00961c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="raPlayer.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="raMainWindow.cpp">
+      <Filter>Quelldateien\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="raVIS.cpp">
+      <Filter>Quelldateien\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="raPlayerPrg.cpp">
+      <Filter>Quelldateien\Programm und Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="raStream.cpp">
+      <Filter>Quelldateien\Programm und Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="raPlayerPlayliste.cpp">
+      <Filter>Quelldateien\Playliste</Filter>
+    </ClCompile>
+    <ClCompile Include="raInfoWindow.cpp">
+      <Filter>Quelldateien\Window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="raPlayer.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="raMainWindow.h">
+      <Filter>Headerdateien\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="raVIS.h">
+      <Filter>Headerdateien\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="raPlayerPrg.h">
+      <Filter>Headerdateien\Programm und Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="raStream.h">
+      <Filter>Headerdateien\Programm und Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayliste.h">
+      <Filter>Headerdateien\Playliste</Filter>
+    </ClInclude>
+    <ClInclude Include="raPlayerPlayliste.h">
+      <Filter>Headerdateien\Playliste</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Ressourcendateien\Version</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenFileArgument.h">
+      <Filter>Headerdateien\Argumenten</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewVIS.h">
+      <Filter>Headerdateien\Argumenten</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowConsole.h">
+      <Filter>Headerdateien\Argumenten</Filter>
+    </ClInclude>
+    <ClInclude Include="raInfoWindow.h">
+      <Filter>Headerdateien\Window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\bin\raApplication\raApplication.lib">
+      <Filter>Ressourcendateien\lib</Filter>
+    </Library>
+    <Library Include="..\bin\raGUI\raGUI.lib">
+      <Filter>Ressourcendateien\lib</Filter>
+    </Library>
+    <Library Include="..\..\bin\raSound\raSound.lib">
+      <Filter>Ressourcendateien\lib</Filter>
+    </Library>
+    <Library Include="..\..\Sound\FMOD\lib\fmodex64_vc.lib">
+      <Filter>Ressourcendateien\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="raPlayer.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Main.ico">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+  </ItemGroup>
+</Project>

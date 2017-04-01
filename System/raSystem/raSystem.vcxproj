@@ -1,0 +1,751 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug x64|Win32">
+      <Configuration>Debug x64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug x64|x64">
+      <Configuration>Debug x64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release x64|Win32">
+      <Configuration>Release x64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release x64|x64">
+      <Configuration>Release x64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A83B6BF3-4B1D-4034-8040-4FD828537792}</ProjectGuid>
+    <RootNamespace>raSystem</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <SccProjectName>
+    </SccProjectName>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>PGOptimize</WholeProgramOptimization>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>PGOptimize</WholeProgramOptimization>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug x64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug x64|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug x64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug x64|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug x64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug x64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug x64|x64'">..\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug x64|Win32'">..\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug x64|x64'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug x64|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\build\debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\build\debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug x64|x64'">..\build\debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug x64|Win32'">..\build\debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug x64|x64'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug x64|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug x64|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug x64|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug x64|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug x64|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\$(ProjectName)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\$(ProjectName)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">..\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">..\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">$(SolutionDir)$(Configuration)_x64\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">$(SolutionDir)$(Configuration)_x64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\build\release\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\build\release\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">..\build\release\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">..\build\release\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">false</LinkIncremental>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Developer Runtime\x86;$(ExecutablePath)</ExecutablePath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Developer Runtime\x86;$(ExecutablePath)</ExecutablePath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Developer Runtime\x86;$(ExecutablePath)</ExecutablePath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Developer Runtime\x86;$(ExecutablePath)</ExecutablePath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Developer Runtime\x86;$(ExecutablePath)</ExecutablePath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Developer Runtime\x86;$(ExecutablePath)</ExecutablePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Win64\api\inc;C:\Program Files (x86)\OpenCTM 1.0.3\Developer files;C:\Program Files %28x86%29\Lua\5.1\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Win64\api\inc;C:\Program Files (x86)\OpenCTM 1.0.3\Developer files;C:\Program Files %28x86%29\Lua\5.1\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib\x64;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Win64\api\lib;C:\Program Files (x86)\OpenCTM 1.0.3\Developer files;C:\Program Files %28x86%29\Lua\5.1\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib\x64;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Win64\api\lib;C:\Program Files (x86)\OpenCTM 1.0.3\Developer files;C:\Program Files %28x86%29\Lua\5.1\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+    <ExcludePath Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(MSBuildToolsPath32);$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;</ExcludePath>
+    <ExcludePath Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(MSBuildToolsPath32);$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;</ExcludePath>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">$(ProjectName)_x64</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">$(ProjectName)_x64</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName)_$(Platform)_db</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)_$(Platform)_db</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug x64|x64'">$(ProjectName)_$(Platform)_db</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug x64|Win32'">$(ProjectName)_$(Platform)_db</TargetName>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Developer Runtime\x86;$(ExecutablePath)</ExecutablePath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Developer Runtime\x86;$(ExecutablePath)</ExecutablePath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Debug x64|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Developer Runtime\x86;$(ExecutablePath)</ExecutablePath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Debug x64|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Developer Runtime\x86;$(ExecutablePath)</ExecutablePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug x64|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug x64|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug x64|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug x64|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">$(ProjectName)_x64</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">$(ProjectName)_x64</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;RASYSTEM_EXPORT;ZLIB_WINAPI;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AssemblerListingLocation>.\pdb\</AssemblerListingLocation>
+      <ObjectFileName>.\pdb\</ObjectFileName>
+      <ProgramDataBaseFileName>.\pdb\vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Opengl32.lib;d2d1.lib;dwrite.lib;windowscodecs.lib;dxgi.lib;WINMM.lib;dxerr.lib;DXGI.lib;dinput8.lib;d3dx11.lib;d3d11.lib;d3dcompiler.lib;winmm.lib;D3dx9.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;RASYSTEM_EXPORT;ZLIB_WINAPI;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AssemblerListingLocation>.\pdb\</AssemblerListingLocation>
+      <ObjectFileName>.\pdb\</ObjectFileName>
+      <ProgramDataBaseFileName>.\pdb\vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Opengl32.lib;d2d1.lib;dwrite.lib;windowscodecs.lib;dxgi.lib;WINMM.lib;dxerr.lib;DXGI.lib;dinput8.lib;d3dx11.lib;d3d11.lib;d3dcompiler.lib;winmm.lib;D3dx9.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug x64|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_WINDOWS;_USRDLL;RASYSTEM_EXPORT;%(PreprocessorDefinitions)ZLIB_WINAPI</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AssemblerListingLocation>.\pdb\</AssemblerListingLocation>
+      <ObjectFileName>.\pdb\</ObjectFileName>
+      <ProgramDataBaseFileName>.\pdb\vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Opengl32.lib;d2d1.lib;dwrite.lib;windowscodecs.lib;dxgi.lib;WINMM.lib;dxerr.lib;DXGI.lib;dinput8.lib;d3dx11.lib;d3d11.lib;d3dcompiler.lib;winmm.lib;D3dx9.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug x64|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_WINDOWS;_USRDLL;RASYSTEM_EXPORT;%(PreprocessorDefinitions)ZLIB_WINAPI</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AssemblerListingLocation>.\pdb\</AssemblerListingLocation>
+      <ObjectFileName>.\pdb\</ObjectFileName>
+      <ProgramDataBaseFileName>.\pdb\vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Opengl32.lib;d2d1.lib;dwrite.lib;windowscodecs.lib;dxgi.lib;WINMM.lib;dxerr.lib;DXGI.lib;dinput8.lib;d3dx11.lib;d3d11.lib;d3dcompiler.lib;winmm.lib;D3dx9.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug x64|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;RASYSTEM_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OpenAL32.lib;EFX-Util.lib;WINMM.lib;dxerr.lib;dxguid.lib;DXGI.lib;dinput8.lib;d3dx11.lib;d3d11.lib;winmm.lib;D3dcompiler.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)d.dll</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>NotSet</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug x64|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;RASYSTEM_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OpenAL32.lib;EFX-Util.lib;WINMM.lib;dxerr.lib;dxguid.lib;DXGI.lib;dinput8.lib;d3dx11.lib;d3d11.lib;winmm.lib;D3dcompiler.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)d.dll</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>NotSet</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;WIN32;NDEBUG;_WINDOWS;_USRDLL;RASYSTEM_EXPORT;ZLIB_WINAPI;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <AssemblerListingLocation>pdb\</AssemblerListingLocation>
+      <ObjectFileName>pdb\</ObjectFileName>
+      <ProgramDataBaseFileName>pdb\vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <RegisterOutput>false</RegisterOutput>
+      <PerUserRedirection>true</PerUserRedirection>
+      <AdditionalDependencies>d2d1.lib;dwrite.lib;windowscodecs.lib;dxgi.lib;WINMM.lib;dxerr.lib;DXGI.lib;dinput8.lib;d3dx11.lib;d3d11.lib;d3dcompiler.lib;winmm.lib;D3dx9.lib;Ws2_32.lib;Comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <AssemblyLinkResource>
+      </AssemblyLinkResource>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkErrorReporting>SendErrorReport</LinkErrorReporting>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;WIN32;NDEBUG;_WINDOWS;_USRDLL;RASYSTEM_EXPORT;ZLIB_WINAPI;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <AssemblerListingLocation>pdb\</AssemblerListingLocation>
+      <ObjectFileName>pdb\</ObjectFileName>
+      <ProgramDataBaseFileName>pdb\vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <RegisterOutput>false</RegisterOutput>
+      <PerUserRedirection>true</PerUserRedirection>
+      <AdditionalDependencies>d2d1.lib;dwrite.lib;windowscodecs.lib;dxgi.lib;WINMM.lib;dxerr.lib;DXGI.lib;dinput8.lib;d3dx11.lib;d3d11.lib;d3dcompiler.lib;winmm.lib;D3dx9.lib;Ws2_32.lib;Comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <AssemblyLinkResource>
+      </AssemblyLinkResource>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkErrorReporting>SendErrorReport</LinkErrorReporting>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_WINDOWS;_USRDLL;RASYSTEM_EXPORT;%(PreprocessorDefinitions)ZLIB_WINAPI</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <AssemblerListingLocation>pdb\</AssemblerListingLocation>
+      <ObjectFileName>pdb\</ObjectFileName>
+      <ProgramDataBaseFileName>pdb\vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <RegisterOutput>false</RegisterOutput>
+      <PerUserRedirection>false</PerUserRedirection>
+      <AdditionalDependencies>Glu32.lib;Opengl32.lib;d2d1.lib;dwrite.lib;windowscodecs.lib;dxgi.lib;WINMM.lib;dxerr.lib;DXGI.lib;dinput8.lib;d3dx11.lib;d3d11.lib;d3dcompiler.lib;winmm.lib;D3dx9.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <AssemblyLinkResource>
+      </AssemblyLinkResource>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_WINDOWS;_USRDLL;RASYSTEM_EXPORT;%(PreprocessorDefinitions)ZLIB_WINAPI</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <AssemblerListingLocation>pdb\</AssemblerListingLocation>
+      <ObjectFileName>pdb\</ObjectFileName>
+      <ProgramDataBaseFileName>pdb\vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <RegisterOutput>false</RegisterOutput>
+      <PerUserRedirection>false</PerUserRedirection>
+      <AdditionalDependencies>Glu32.lib;Opengl32.lib;d2d1.lib;dwrite.lib;windowscodecs.lib;dxgi.lib;WINMM.lib;dxerr.lib;DXGI.lib;dinput8.lib;d3dx11.lib;d3d11.lib;d3dcompiler.lib;winmm.lib;D3dx9.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <AssemblyLinkResource>
+      </AssemblyLinkResource>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release x64|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;WIN64;NDEBUG;_WINDOWS;_USRDLL;RASYSTEM_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <RegisterOutput>false</RegisterOutput>
+      <PerUserRedirection>false</PerUserRedirection>
+      <AdditionalDependencies>dxerr.lib;DXGI.lib;dinput8.lib;d3dx11.lib;d3d11.lib;d3dcompiler.lib;lua5.1.lib;D3dx9.lib;Ws2_32.lib;fmodex64p_vc.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release x64|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;WIN64;NDEBUG;_WINDOWS;_USRDLL;RASYSTEM_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <RegisterOutput>false</RegisterOutput>
+      <PerUserRedirection>false</PerUserRedirection>
+      <AdditionalDependencies>dxerr.lib;DXGI.lib;dinput8.lib;d3dx11.lib;d3d11.lib;d3dcompiler.lib;lua5.1.lib;D3dx9.lib;Ws2_32.lib;fmodex64p_vc.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\IRARawDevice.cpp" />
+    <ClCompile Include="src\raAnimated.cpp" />
+    <ClCompile Include="src\raAnimation.cpp" />
+    <ClCompile Include="src\raBasic.cpp" />
+    <ClCompile Include="src\raBasics.cpp" />
+    <ClCompile Include="src\raBillboard.cpp" />
+    <ClCompile Include="src\racamera.cpp" />
+    <ClCompile Include="src\raClient.cpp" />
+    <ClCompile Include="src\raCMaterial.cpp" />
+    <ClCompile Include="src\raCollide.cpp" />
+    <ClCompile Include="src\raColor.cpp" />
+    <ClCompile Include="src\raComputeShaderObject.cpp" />
+    <ClCompile Include="src\raConfigLoader.cpp" />
+    <ClCompile Include="src\raCriticalSection.cpp" />
+    <ClCompile Include="src\raCSIOBuffer.cpp" />
+    <ClCompile Include="src\raCSRessource.cpp" />
+    <ClCompile Include="src\raDirectX.cpp" />
+    <ClCompile Include="src\raDouble.cpp" />
+    <ClCompile Include="src\raEntity.cpp" />
+    <ClCompile Include="src\raEntitySDKMesh.cpp" />
+    <ClCompile Include="src\raFractal.cpp" />
+    <ClCompile Include="src\raGame.cpp" />
+    <ClCompile Include="src\raGameCharakter.cpp" />
+    <ClCompile Include="src\raGPUHeightmap.cpp" />
+    <ClCompile Include="src\raGPUParticleSystem.cpp" />
+    <ClCompile Include="src\raGrafikDriver.cpp" />
+    <ClCompile Include="src\raGroupe.cpp" />
+    <ClCompile Include="src\raGSEntity.cpp" />
+    <ClCompile Include="src\raHoehenfeld.cpp" />
+    <ClCompile Include="src\IRAImage.cpp" />
+    <ClCompile Include="src\raIBMP.cpp" />
+    <ClCompile Include="src\raIni.cpp" />
+    <ClCompile Include="src\raInput.cpp" />
+    <ClCompile Include="src\raISGI.cpp" />
+    <ClCompile Include="src\raLight.cpp" />
+    <ClCompile Include="src\raLocation.cpp" />
+    <ClCompile Include="src\raLog.cpp" />
+    <ClCompile Include="src\raLong.cpp" />
+    <ClCompile Include="src\raMain.cpp" />
+    <ClCompile Include="src\raMaterial.cpp" />
+    <ClCompile Include="src\raMatrix.cpp" />
+    <ClCompile Include="src\raMinimap.cpp" />
+    <ClCompile Include="src\raClass.cpp" />
+    <ClCompile Include="src\raModel.cpp" />
+    <ClCompile Include="src\raNode.cpp" />
+    <ClCompile Include="src\raOctree.cpp" />
+    <ClCompile Include="src\raOrthoCamera.cpp" />
+    <ClCompile Include="src\raParticleSystem.cpp" />
+    <ClCompile Include="src\raPhysik.cpp" />
+    <ClCompile Include="src\raPlane.cpp" />
+    <ClCompile Include="src\raProceduralMaterial.cpp" />
+    <ClCompile Include="src\raQuaternion.cpp" />
+    <ClCompile Include="src\raRain.cpp" />
+    <ClCompile Include="src\raRawInputCamera.cpp" />
+    <ClCompile Include="src\raRawKeyboard.cpp" />
+    <ClCompile Include="src\raRECT.cpp" />
+    <ClCompile Include="src\raRender.cpp" />
+    <ClCompile Include="src\raRenderScreen.cpp" />
+    <ClCompile Include="src\raResource.cpp" />
+    <ClCompile Include="src\raRFMaterial.cpp" />
+    <ClCompile Include="src\raRTTMaterial.cpp" />
+    <ClCompile Include="src\raSceneManager.cpp" />
+    <ClCompile Include="src\raSDKmesh.cpp" />
+    <ClCompile Include="src\raServer.cpp" />
+    <ClCompile Include="src\raSkyBox.cpp" />
+    <ClCompile Include="src\raSkyDome.cpp" />
+    <ClCompile Include="src\raSocket.cpp" />
+    <ClCompile Include="src\raTesselatinObject.cpp" />
+    <ClCompile Include="src\raTexturedMaterial.cpp" />
+    <ClCompile Include="src\raThread.cpp" />
+    <ClCompile Include="src\raThreadManager.cpp" />
+    <ClCompile Include="src\raTimer.cpp" />
+    <ClCompile Include="src\raTree.cpp" />
+    <ClCompile Include="src\raUtility.cpp" />
+    <ClCompile Include="src\raVector2.cpp" />
+    <ClCompile Include="src\raVector3.cpp" />
+    <ClCompile Include="src\raVector4.cpp" />
+    <ClCompile Include="src\raVirtualFile.cpp" />
+    <ClCompile Include="src\raVisual.cpp" />
+    <ClCompile Include="src\raWater.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3rd-path\DXUT\SDKmisc.h" />
+    <ClInclude Include="include\IConfigFile.h" />
+    <ClInclude Include="include\IRADelegate.h" />
+    <ClInclude Include="include\IRARawDevice.h" />
+    <ClInclude Include="include\IRASection.h" />
+    <ClInclude Include="include\IRASingleton.h" />
+    <ClInclude Include="include\IRAUnknown.h" />
+    <ClInclude Include="include\IRAMesh.h" />
+    <ClInclude Include="include\raAnimated.h" />
+    <ClInclude Include="include\raAnimation.h" />
+    <ClInclude Include="include\raArray.h" />
+    <ClInclude Include="include\raBasics.h" />
+    <ClInclude Include="include\raBillboard.h" />
+    <ClInclude Include="include\raCamera.h" />
+    <ClInclude Include="include\raClient.h" />
+    <ClInclude Include="include\raCMaterial.h" />
+    <ClInclude Include="include\raCollide.h" />
+    <ClInclude Include="include\raColor.h" />
+    <ClInclude Include="include\raComputeShaderObject.h" />
+    <ClInclude Include="include\raConfigLoader.h" />
+    <ClInclude Include="include\raCriticalSection.h" />
+    <ClInclude Include="include\raCSIOBuffer.h" />
+    <ClInclude Include="include\raCSRessource.h" />
+    <ClInclude Include="include\raDirectX.h" />
+    <ClInclude Include="include\raEntity.h" />
+    <ClInclude Include="include\raEntitySDKMesh.h" />
+    <ClInclude Include="include\raEvent.h" />
+    <ClInclude Include="include\raFNormalize.h" />
+    <ClInclude Include="include\raFractal.h" />
+    <ClInclude Include="include\raGame.h" />
+    <ClInclude Include="include\raGameCharakter.h" />
+    <ClInclude Include="include\raGPUHeightmap.h" />
+    <ClInclude Include="include\raGPUParticleSystem.h" />
+    <ClInclude Include="include\raGrafikDriver.h" />
+    <ClInclude Include="include\raGroupe.h" />
+    <ClInclude Include="include\raGSEntity.h" />
+    <ClInclude Include="include\raHoehenfeld.h" />
+    <ClInclude Include="include\IRAImage.h" />
+    <ClInclude Include="include\raIBMP.h" />
+    <ClInclude Include="include\raIni.h" />
+    <ClInclude Include="include\raInput.h" />
+    <ClInclude Include="include\raInputMap.h" />
+    <ClInclude Include="include\raISGI.h" />
+    <ClInclude Include="include\raLight.h" />
+    <ClInclude Include="include\raList.h" />
+    <ClInclude Include="include\raLocation.h" />
+    <ClInclude Include="include\raLog.h" />
+    <ClInclude Include="include\raMain.h" />
+    <ClInclude Include="include\raMap.h" />
+    <ClInclude Include="include\raMaterial.h" />
+    <ClInclude Include="include\raMatrix.h" />
+    <ClInclude Include="include\raMinimap.h" />
+    <ClInclude Include="include\raModel.h" />
+    <ClInclude Include="include\raNode.h" />
+    <ClInclude Include="include\raOctree.h" />
+    <ClInclude Include="include\raOrthoCamera.h" />
+    <ClInclude Include="include\raParticleSystem.h" />
+    <ClInclude Include="include\raPhysik.h" />
+    <ClInclude Include="include\raPlane.h" />
+    <ClInclude Include="include\raPostID.h" />
+    <ClInclude Include="include\raProceduralMaterial.h" />
+    <ClInclude Include="include\raProperties.h" />
+    <ClInclude Include="include\raQuaternion.h" />
+    <ClInclude Include="include\raRain.h" />
+    <ClInclude Include="include\raRawInputCamera.h" />
+    <ClInclude Include="include\raRawKeyboard.h" />
+    <ClInclude Include="include\raRECT.h" />
+    <ClInclude Include="include\raRender.h" />
+    <ClInclude Include="include\raRenderScreen.h" />
+    <ClInclude Include="include\raResource.h" />
+    <ClInclude Include="include\raRFMaterial.h" />
+    <ClInclude Include="include\raRTTMaterial.h" />
+    <ClInclude Include="include\raSceneManager.h" />
+    <ClInclude Include="include\raSDKmesh.h" />
+    <ClInclude Include="include\raServer.h" />
+    <ClInclude Include="include\raSkyBox.h" />
+    <ClInclude Include="include\raSkyDome.h" />
+    <ClInclude Include="include\raSmartPointer.h" />
+    <ClInclude Include="include\raSocket.h" />
+    <ClInclude Include="include\raTesselatinObject.h" />
+    <ClInclude Include="include\raTexturedMaterial.h" />
+    <ClInclude Include="include\raThread.h" />
+    <ClInclude Include="include\raThreadManager.h" />
+    <ClInclude Include="include\raTimer.h" />
+    <ClInclude Include="include\raTree.h" />
+    <ClInclude Include="include\raUtility.h" />
+    <ClInclude Include="include\raVectexType.h" />
+    <ClInclude Include="include\raVector2.h" />
+    <ClInclude Include="include\raVector3.h" />
+    <ClInclude Include="include\raVector4.h" />
+    <ClInclude Include="include\raVisual.h" />
+    <ClInclude Include="include\raWater.h" />
+    <ClInclude Include="include\ressource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="resource\raMain.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource\Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="3rd-path\D3Dx11EffectFramework\D3DX11Effects_x64.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Dialoge">
+      <UniqueIdentifier>{e626da12-cf92-40e9-8715-e93df98f0cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Form">
+      <UniqueIdentifier>{76719f13-8c31-40d6-8cb3-d5420d43e5c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Controll">
+      <UniqueIdentifier>{08652cd0-596b-4e0b-aaed-89c65036ca09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Dialog">
+      <UniqueIdentifier>{c275833c-f8de-4fd6-869a-15451737f6da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Controll">
+      <UniqueIdentifier>{70c00cc8-6af5-4b45-af23-e74a9c712e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Form">
+      <UniqueIdentifier>{54b99ef9-87f5-4c11-a9a2-2c5414ae8081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Handler">
+      <UniqueIdentifier>{b120b172-bf1b-44cd-991e-2659e196ee74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Handler">
+      <UniqueIdentifier>{2f2821ca-fcde-4bfb-a983-afedaae01a26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="raGuiMain.h" />
+    <ClInclude Include="raGuiManager.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="raColorDialog.h">
+      <Filter>Headerdateien\Dialoge</Filter>
+    </ClInclude>
+    <ClInclude Include="raBitmapButton.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="raButton.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="raCheckBox.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="raDrawing.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="raEdit.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="raElapsedSlider.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="raElement.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="raListBox.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="raLabel.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="raMenu.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="raOpenGl.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="raRadiobox.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="raSlider.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="raText.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="raTrayIcon.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="raFixedWindow.h">
+      <Filter>Headerdateien\Form</Filter>
+    </ClInclude>
+    <ClInclude Include="raGameWindow.h">
+      <Filter>Headerdateien\Form</Filter>
+    </ClInclude>
+    <ClInclude Include="raOverlappedWindow.h">
+      <Filter>Headerdateien\Form</Filter>
+    </ClInclude>
+    <ClInclude Include="raPopupWindow.h">
+      <Filter>Headerdateien\Form</Filter>
+    </ClInclude>
+    <ClInclude Include="raWND.h">
+      <Filter>Headerdateien\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="raWindowClass.h">
+      <Filter>Headerdateien\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="rahInstance.h">
+      <Filter>Headerdateien\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="raPrintDialog.h">
+      <Filter>Headerdateien\Dialoge</Filter>
+    </ClInclude>
+    <ClInclude Include="raWindow.h">
+      <Filter>Headerdateien\Form</Filter>
+    </ClInclude>
+    <ClInclude Include="raFileDialog.h">
+      <Filter>Headerdateien\Dialoge</Filter>
+    </ClInclude>
+    <ClInclude Include="raRtfBox.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="raRegistry.h">
+      <Filter>Headerdateien\Controll</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="raGuiManager.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="raGuiMain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="raBitmapButton.cpp">
+      <Filter>Quelldateien\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="raButton.cpp">
+      <Filter>Quelldateien\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="raDrawing.cpp">
+      <Filter>Quelldateien\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="raEdit.cpp">
+      <Filter>Quelldateien\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="raElapsedSlider.cpp">
+      <Filter>Quelldateien\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="raElement.cpp">
+      <Filter>Quelldateien\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="raColorDialog.cpp">
+      <Filter>Quelldateien\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="raCheckBox.cpp">
+      <Filter>Quelldateien\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="raFixedWindow.cpp">
+      <Filter>Quelldateien\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="raGameWindow.cpp">
+      <Filter>Quelldateien\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="rahInstance.cpp">
+      <Filter>Quelldateien\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="raLabel.cpp">
+      <Filter>Quelldateien\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="raListBox.cpp">
+      <Filter>Quelldateien\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="raMenu.cpp">
+      <Filter>Quelldateien\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="raOpenGl.cpp">
+      <Filter>Quelldateien\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="raOverlappedWindow.cpp">
+      <Filter>Quelldateien\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="raPopupWindow.cpp">
+      <Filter>Quelldateien\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="raRadiobox.cpp">
+      <Filter>Quelldateien\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="raSlider.cpp">
+      <Filter>Quelldateien\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="raText.cpp">
+      <Filter>Quelldateien\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="raTrayIcon.cpp">
+      <Filter>Quelldateien\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="raWND.cpp">
+      <Filter>Quelldateien\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="raWindowClass.cpp">
+      <Filter>Quelldateien\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="raWindow.cpp">
+      <Filter>Quelldateien\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="raPrintDialog.cpp">
+      <Filter>Quelldateien\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="raFileDialog.cpp">
+      <Filter>Quelldateien\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="raRtfBox.cpp">
+      <Filter>Quelldateien\Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="raRegistry.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\raPlayer\Main.png">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\bin\raSystem\raSystem.lib">
+      <Filter>Ressourcendateien</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

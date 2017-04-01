@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Basic">
+      <UniqueIdentifier>{d2cf0030-f23b-4a6a-9b34-0408db60d29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Grafik">
+      <UniqueIdentifier>{d8a35f6e-44ab-4408-bd5c-b990fd87450b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Tools">
+      <UniqueIdentifier>{a87fbb4f-cea2-495b-92dd-731e3f715153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Netzwerk">
+      <UniqueIdentifier>{e927e30b-563c-4f3a-bf68-18ed9458255e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Physik">
+      <UniqueIdentifier>{1919c154-96ab-42ba-9978-1aca747509e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Sound">
+      <UniqueIdentifier>{7d990fd6-f98d-44b1-bb4e-2ad039679b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Grafik\Driver">
+      <UniqueIdentifier>{92c81a29-8e3c-4d89-9b4e-242bab424fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Grafik\DX11">
+      <UniqueIdentifier>{de0f7c0b-0df2-4ae9-a428-2193aa554b6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Grafik\DX11\DX11 Spez">
+      <UniqueIdentifier>{3ca33778-48d3-4e32-9231-564d8b9a75f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Image">
+      <UniqueIdentifier>{6636815d-6aaa-45b3-b81b-361dce015e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Sound\FMOD">
+      <UniqueIdentifier>{e69ac865-cd69-4639-bd75-3cceb162f5d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Game">
+      <UniqueIdentifier>{02dfc6d0-1af9-4abc-9e28-76ea6c3a503d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Input">
+      <UniqueIdentifier>{7dff60d0-5af8-42d4-a61b-13511c55227e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Sound\FMOD\Effecte">
+      <UniqueIdentifier>{719ded61-77e4-4cbd-a464-91f8f0650f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Grafik">
+      <UniqueIdentifier>{87ae0c08-9c0e-46bd-865e-cfecb9782597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Grafik\Driver">
+      <UniqueIdentifier>{55003d0e-7839-4c01-9729-92c4ce549fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Grafik\DX11">
+      <UniqueIdentifier>{0bcdd803-2c97-44c4-b52c-b3ef803bc542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Grafik\DX11\DX11 spez">
+      <UniqueIdentifier>{111815fb-796b-41e8-9139-964fff27532a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Grafik\OpenGL">
+      <UniqueIdentifier>{5fb76a8b-268e-4c35-ad9c-33afefe8875f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Tools">
+      <UniqueIdentifier>{e8f19edf-603f-4165-a5db-0a69a4c1599d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Netzwerk">
+      <UniqueIdentifier>{0d520c89-1b2c-4a86-9d14-dd5b2b33912c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Physik">
+      <UniqueIdentifier>{f231d2ce-3f65-4a81-877c-01e1cce6df13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Basic">
+      <UniqueIdentifier>{b0bf09fd-df21-4f9f-9f11-65954ebc11a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Image">
+      <UniqueIdentifier>{f3e1a316-f4f5-46ce-93e5-9561aea9a816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Game">
+      <UniqueIdentifier>{12e64cdf-ee5f-41fc-ac60-17eba3631d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Input">
+      <UniqueIdentifier>{2896e222-8392-4e1a-ab27-4593c5635860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\config">
+      <UniqueIdentifier>{a725b40c-c23f-4f66-a948-a2ac32e89265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\config">
+      <UniqueIdentifier>{9d1be920-79a5-491d-a41f-88108ab1a1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Section">
+      <UniqueIdentifier>{646eb307-66e7-45ec-a30b-afad544401ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Thread">
+      <UniqueIdentifier>{6f9ec9a2-dc69-4cda-819b-73e214e5f80c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Thread">
+      <UniqueIdentifier>{cec7aef7-ca46-442c-8b92-e9cbf2969c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Section">
+      <UniqueIdentifier>{9a46ddef-97d7-40d7-b75f-bd0f122cd18b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Camera">
+      <UniqueIdentifier>{41f5b154-259c-4ddf-9336-28921761196e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Camera">
+      <UniqueIdentifier>{b51de2c8-fe90-4708-a55c-14ef9185ada2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\raTimer.cpp">
+      <Filter>Quelldateien\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raVector2.cpp">
+      <Filter>Quelldateien\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raVector3.cpp">
+      <Filter>Quelldateien\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raVector4.cpp">
+      <Filter>Quelldateien\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raColor.cpp">
+      <Filter>Quelldateien\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raDouble.cpp">
+      <Filter>Quelldateien\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raLight.cpp">
+      <Filter>Quelldateien\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raLog.cpp">
+      <Filter>Quelldateien\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raLong.cpp">
+      <Filter>Quelldateien\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raMatrix.cpp">
+      <Filter>Quelldateien\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raQuaternion.cpp">
+      <Filter>Quelldateien\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raRECT.cpp">
+      <Filter>Quelldateien\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raUtility.cpp">
+      <Filter>Quelldateien\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raPhysik.cpp">
+      <Filter>Quelldateien\Physik</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raCollide.cpp">
+      <Filter>Quelldateien\Physik</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raPlane.cpp">
+      <Filter>Quelldateien\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raSocket.cpp">
+      <Filter>Quelldateien\Netzwerk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raClient.cpp">
+      <Filter>Quelldateien\Netzwerk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raServer.cpp">
+      <Filter>Quelldateien\Netzwerk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raGrafikDriver.cpp">
+      <Filter>Quelldateien\Grafik\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raDirectX.cpp">
+      <Filter>Quelldateien\Grafik\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raTesselatinObject.cpp">
+      <Filter>Quelldateien\Grafik\DX11\DX11 spez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raComputeShaderObject.cpp">
+      <Filter>Quelldateien\Grafik\DX11\DX11 spez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raCSIOBuffer.cpp">
+      <Filter>Quelldateien\Grafik\DX11\DX11 spez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raCSRessource.cpp">
+      <Filter>Quelldateien\Grafik\DX11\DX11 spez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raGPUHeightmap.cpp">
+      <Filter>Quelldateien\Grafik\DX11\DX11 spez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raGPUParticleSystem.cpp">
+      <Filter>Quelldateien\Grafik\DX11\DX11 spez</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raAnimated.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raWater.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raAnimation.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raBasics.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raBillboard.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raEntity.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raEntitySDKMesh.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raFractal.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raGroupe.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raGSEntity.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raHoehenfeld.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raMaterial.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raMinimap.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raNode.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raOctree.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raParticleSystem.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raProceduralMaterial.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raRain.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raRender.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raRenderScreen.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raResource.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raRFMaterial.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raRTTMaterial.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raSceneManager.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raSDKmesh.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raSkyBox.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raSkyDome.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raTexturedMaterial.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raTree.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raVisual.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raCMaterial.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IRAImage.cpp">
+      <Filter>Quelldateien\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raIBMP.cpp">
+      <Filter>Quelldateien\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raISGI.cpp">
+      <Filter>Quelldateien\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raClass.cpp">
+      <Filter>Quelldateien\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raGameCharakter.cpp">
+      <Filter>Quelldateien\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raGame.cpp">
+      <Filter>Quelldateien\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raLocation.cpp">
+      <Filter>Quelldateien\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raMain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raVirtualFile.cpp">
+      <Filter>Quelldateien\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raModel.cpp">
+      <Filter>Quelldateien\Grafik\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IRARawDevice.cpp">
+      <Filter>Quelldateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raRawKeyboard.cpp">
+      <Filter>Quelldateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raInput.cpp">
+      <Filter>Quelldateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raRawInputCamera.cpp">
+      <Filter>Quelldateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raIni.cpp">
+      <Filter>Quelldateien\config</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raConfigLoader.cpp">
+      <Filter>Quelldateien\config</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raThreadManager.cpp">
+      <Filter>Quelldateien\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raCriticalSection.cpp">
+      <Filter>Quelldateien\Section</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raThread.cpp">
+      <Filter>Quelldateien\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raBasic.cpp">
+      <Filter>Quelldateien\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\racamera.cpp">
+      <Filter>Quelldateien\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raOrthoCamera.cpp">
+      <Filter>Quelldateien\Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\raTimer.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raVector2.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raVector3.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raVector4.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raArray.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raColor.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raInputMap.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raLight.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raList.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raLog.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raMatrix.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raPlane.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raQuaternion.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raRECT.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raServer.h">
+      <Filter>Headerdateien\Netzwerk</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raSocket.h">
+      <Filter>Headerdateien\Netzwerk</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raClient.h">
+      <Filter>Headerdateien\Netzwerk</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raPostID.h">
+      <Filter>Headerdateien\Netzwerk</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raPhysik.h">
+      <Filter>Headerdateien\Physik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raCollide.h">
+      <Filter>Headerdateien\Physik</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raUtility.h">
+      <Filter>Headerdateien\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raMain.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raGrafikDriver.h">
+      <Filter>Headerdateien\Grafik\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raDirectX.h">
+      <Filter>Headerdateien\Grafik\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ressource.h">
+      <Filter>Ressourcendateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raComputeShaderObject.h">
+      <Filter>Headerdateien\Grafik\DX11\DX11 Spez</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raTesselatinObject.h">
+      <Filter>Headerdateien\Grafik\DX11\DX11 Spez</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raCSIOBuffer.h">
+      <Filter>Headerdateien\Grafik\DX11\DX11 Spez</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raCSRessource.h">
+      <Filter>Headerdateien\Grafik\DX11\DX11 Spez</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raGPUHeightmap.h">
+      <Filter>Headerdateien\Grafik\DX11\DX11 Spez</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raGPUParticleSystem.h">
+      <Filter>Headerdateien\Grafik\DX11\DX11 Spez</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IRAMesh.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raWater.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raAnimated.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raAnimation.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raBasics.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raBillboard.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raEntity.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raEntitySDKMesh.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raFractal.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raGroupe.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raGSEntity.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raHoehenfeld.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raMaterial.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raMinimap.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raNode.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raOctree.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raParticleSystem.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raProceduralMaterial.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raRain.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raRender.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raRenderScreen.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raResource.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raRFMaterial.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raRTTMaterial.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raSceneManager.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raSDKmesh.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raSkyBox.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raSkyDome.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raTexturedMaterial.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raTree.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raVectexType.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raVisual.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raCMaterial.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IRAImage.h">
+      <Filter>Headerdateien\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raIBMP.h">
+      <Filter>Headerdateien\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raISGI.h">
+      <Filter>Headerdateien\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raGameCharakter.h">
+      <Filter>Headerdateien\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raGame.h">
+      <Filter>Headerdateien\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raLocation.h">
+      <Filter>Headerdateien\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd-path\DXUT\SDKmisc.h">
+      <Filter>Ressourcendateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raModel.h">
+      <Filter>Headerdateien\Grafik\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IRARawDevice.h">
+      <Filter>Headerdateien\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raRawKeyboard.h">
+      <Filter>Headerdateien\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raInput.h">
+      <Filter>Headerdateien\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raRawInputCamera.h">
+      <Filter>Headerdateien\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raFNormalize.h">
+      <Filter>Headerdateien\Sound\FMOD\Effecte</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IConfigFile.h">
+      <Filter>Headerdateien\config</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raIni.h">
+      <Filter>Headerdateien\config</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raConfigLoader.h">
+      <Filter>Headerdateien\config</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IRASingleton.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raCriticalSection.h">
+      <Filter>Headerdateien\Section</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IRASection.h">
+      <Filter>Headerdateien\Section</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raThread.h">
+      <Filter>Headerdateien\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raThreadManager.h">
+      <Filter>Headerdateien\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raOrthoCamera.h">
+      <Filter>Headerdateien\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raCamera.h">
+      <Filter>Headerdateien\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IRAUnknown.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raSmartPointer.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raProperties.h">
+      <Filter>Headerdateien\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raMap.h">
+      <Filter>Headerdateien\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IRADelegate.h">
+      <Filter>Headerdateien\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\raEvent.h">
+      <Filter>Headerdateien\Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\raMain.ico">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource\Resource.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="3rd-path\D3Dx11EffectFramework\D3DX11Effects_x64.lib">
+      <Filter>Ressourcendateien</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
