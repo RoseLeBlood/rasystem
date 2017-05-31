@@ -1,0 +1,28 @@
+var class_i_config_file =
+[
+    [ "IConfigFile", "class_i_config_file.html#a3c17337a159f123562376e9904b95311", null ],
+    [ "~IConfigFile", "class_i_config_file.html#a442b7e917adae0d5cd7fad0f3e864543", null ],
+    [ "Clear", "class_i_config_file.html#a6f054977dcc6d29d72485740dc5599f1", null ],
+    [ "Close", "class_i_config_file.html#af97c119eb500bf562b2d41d357becc45", null ],
+    [ "CountEntries", "class_i_config_file.html#ae087de0d6f3f6edb9f229da4ffe9de57", null ],
+    [ "CountSections", "class_i_config_file.html#aa933a940b69fdf350c1a94295bebc045", null ],
+    [ "CreateSection", "class_i_config_file.html#ae2cfa2d7af99ebbf0de6bf902c9aa616", null ],
+    [ "Get", "class_i_config_file.html#a24987a22773bcf29bbc1f98ef0048e84", null ],
+    [ "GetBool", "class_i_config_file.html#a5136ad2e6c9ad1c846b905422b20c437", null ],
+    [ "GetInt", "class_i_config_file.html#af3d61fc3079ddfd1312f8f370075d1e0", null ],
+    [ "GetLong", "class_i_config_file.html#ab0c7557c9cd9f4839c19913e15b82dd1", null ],
+    [ "GetString", "class_i_config_file.html#aec154dcd6b2c86c7ae4df04baf36676c", null ],
+    [ "Good", "class_i_config_file.html#a82f834cd802fe4bde5479d00b1a09f60", null ],
+    [ "IsLoaded", "class_i_config_file.html#a8652676ad06ed51fe79cd76a27d581ab", null ],
+    [ "Open", "class_i_config_file.html#af6b3a4edfda1a2b25abcb1b89c422884", null ],
+    [ "RemoveEntry", "class_i_config_file.html#ab45bf61d0a889cb4278331c2c94df82b", null ],
+    [ "RemoveSection", "class_i_config_file.html#a71a240f1479ead03b163a08b8d8416af", null ],
+    [ "Set", "class_i_config_file.html#a402979ca1a6b45eb93cf3a93aae4ddba", null ],
+    [ "SetBool", "class_i_config_file.html#a233fa70f340f0f0069b7824f94245940", null ],
+    [ "SetInt", "class_i_config_file.html#abfd51806376daca02244e30ae2c425b6", null ],
+    [ "SetLong", "class_i_config_file.html#ae1ecd9803791b1cef3ab53b9f5cee8fc", null ],
+    [ "SetString", "class_i_config_file.html#a67ce347391ff59428c573c59e4e7b562", null ],
+    [ "ValidEntry", "class_i_config_file.html#ad883ff7bab6152e4308f995122a79641", null ],
+    [ "ValidSection", "class_i_config_file.html#a5b78ed1d812ce158ef0e34e33b39837b", null ],
+    [ "m_isloaded", "class_i_config_file.html#aea3828bfcb7acdfef6d5898623facc4c", null ]
+];

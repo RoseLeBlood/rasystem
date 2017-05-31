@@ -1,0 +1,26 @@
+var classra_game_charakter =
+[
+    [ "raGameCharakter", "classra_game_charakter.html#ac9a08766bf8760dede9820d49c1b5be1", null ],
+    [ "raGameCharakter", "classra_game_charakter.html#a06dafbc4b1c230a9620119d3712b88a5", null ],
+    [ "~raGameCharakter", "classra_game_charakter.html#aee3650f1932ce86db5dfc0748b0312ca", null ],
+    [ "GetHealth", "classra_game_charakter.html#a02287b23ac3c8d1852424bc95ebca9f9", null ],
+    [ "GetPosition", "classra_game_charakter.html#a30e20e4f0e633ffdd8dc7b66b28fc1b9", null ],
+    [ "SetAnimation", "classra_game_charakter.html#af29397cf5152cdbc1071323df04cc1bd", null ],
+    [ "SetDestination", "classra_game_charakter.html#afa41eda5bd8a2370742ab877fec42968", null ],
+    [ "SetFollow", "classra_game_charakter.html#a386de57668fb73a12108a509b43e992b", null ],
+    [ "SetSelected", "classra_game_charakter.html#a8452155acd887d8f5f43c047d6036931", null ],
+    [ "TakeHit", "classra_game_charakter.html#a55f53036c6316093f2eb6490100a3ece", null ],
+    [ "Update", "classra_game_charakter.html#aeb52313637f529dab95a26ee1204f013", null ],
+    [ "m_AktHealth", "classra_game_charakter.html#a872d65ecae6699071f93faedf4bcd888", null ],
+    [ "m_bIsFighting", "classra_game_charakter.html#a4481276d3d8d426b633eff2862345170", null ],
+    [ "m_destination", "classra_game_charakter.html#a78fe179b0264d0af07048414eb96770f", null ],
+    [ "m_InstanceNo", "classra_game_charakter.html#a527d39e0e102084aa8c4561483bb2dba", null ],
+    [ "m_MaxHealth", "classra_game_charakter.html#a1a3d998e2f8e7a7f2bbb34d46780731b", null ],
+    [ "m_pFollow", "classra_game_charakter.html#a01994dc9f7a5635f69ab96b1620bd972", null ],
+    [ "m_pGame", "classra_game_charakter.html#a1c481cd840e035f9674d511f59e7b33a", null ],
+    [ "m_Position", "classra_game_charakter.html#ad9fb155c1b6be896956101e06673e991", null ],
+    [ "m_scale", "classra_game_charakter.html#a0b60ba2ccb5097e4c36f1e37e1179cb1", null ],
+    [ "m_speed", "classra_game_charakter.html#a45cc7c142b89fac7cccf350624e30f8f", null ],
+    [ "m_Team", "classra_game_charakter.html#a49567e7fcb0b14e7168d241495b96900", null ],
+    [ "m_velocity", "classra_game_charakter.html#ab2f22022ffac6e1d7925cd26cb24538e", null ]
+];

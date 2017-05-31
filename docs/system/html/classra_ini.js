@@ -1,0 +1,27 @@
+var classra_ini =
+[
+    [ "raIni", "classra_ini.html#a1c62bea3fd72b66faeebce6914b25708", null ],
+    [ "~raIni", "classra_ini.html#af104127c50ecc520552c7350830d07d1", null ],
+    [ "Clear", "classra_ini.html#a134cb42ced9b557d27d096cb48874417", null ],
+    [ "Close", "classra_ini.html#a0029fca4053c99a521132f3305ad1e91", null ],
+    [ "CountEntries", "classra_ini.html#abfa87ceda2d34d9ee31c60f9cd683253", null ],
+    [ "CountSections", "classra_ini.html#a2d5b9880eed2722f4f4feda571be2fab", null ],
+    [ "CreateSection", "classra_ini.html#a373d388aa24edb715b56a3c7cd4ac3d2", null ],
+    [ "Get", "classra_ini.html#ac26edc341a5f51571dea799b9628c96d", null ],
+    [ "GetBool", "classra_ini.html#ab53dfff4b4bc89a27b04a585617c000a", null ],
+    [ "GetInt", "classra_ini.html#a6ee3f1a10ba4228fb328fb35d172c075", null ],
+    [ "GetLong", "classra_ini.html#a247d63b2d737b75120adeafb4d6522f6", null ],
+    [ "GetString", "classra_ini.html#ac82ee479582fc2cdf3eb3e7e512fab18", null ],
+    [ "Good", "classra_ini.html#a1a66b2eba7a6cdfdcbd6f311abd47275", null ],
+    [ "numtostring", "classra_ini.html#a70534ac1aae06d0c45db836da73372b8", null ],
+    [ "Open", "classra_ini.html#ac0636fa242bdb94a6a86e7384a576f46", null ],
+    [ "RemoveEntry", "classra_ini.html#a8115eebdfcc684008fb984c1a19734af", null ],
+    [ "RemoveSection", "classra_ini.html#a17aaada4348f525436b3d5d008bac0d5", null ],
+    [ "Set", "classra_ini.html#a2f425a7915438426012cea29878c765d", null ],
+    [ "SetBool", "classra_ini.html#a4c9647a035872eb20756e2ee9eca4350", null ],
+    [ "SetInt", "classra_ini.html#a80f49faf12776769f6823291bf06cd1a", null ],
+    [ "SetLong", "classra_ini.html#accf59b8fbbe50d9cf724be717b1699e6", null ],
+    [ "SetString", "classra_ini.html#abb36211f4de3bab76a1229b0c1b2e78c", null ],
+    [ "ValidEntry", "classra_ini.html#a3ab34bab01547049a56b52353eb4c877", null ],
+    [ "ValidSection", "classra_ini.html#ac0146bf1671679899534f90b0e503ba4", null ]
+];
